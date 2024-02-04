@@ -1,4 +1,4 @@
-﻿using System.IO; //desde la versión 6 no es necesario escribir estos 2 using
+Hello World!  using System.IO; //desde la versión 6 no es necesario escribir estos 2 using
 using System.Collections.Generic; //Pero para recordar su uso las vamos a dejar
 
 //El siguiente código pasa el nombre de la carpeta stores como la ubicación en la que buscar los archivos.
@@ -66,8 +66,6 @@ string filepath="/workspaces/sobreElManejoDeArchivos/FileSystem2/mslearn-dotnet-
 // Lee todo el contenido del archivo y almacénalo en una variable
 string esteArchivo = File.ReadAllText(filepath);
 File.WriteAllText(Path.Combine(newDir,"greeting.txt"), $"Hello World!  {esteArchivo}");
-//Debí haberlo creado dentro de un try catch pero como ejmplo lo dejaré así
-
 
 //Prueba de grabación en git 03/02/2024
 
