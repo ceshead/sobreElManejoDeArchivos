@@ -68,9 +68,6 @@ string esteArchivo = File.ReadAllText(filepath);
 File.WriteAllText(Path.Combine(newDir,"greeting.txt"), $"Hello World!  {esteArchivo}");
 //Debí haberlo creado dentro de un try catch pero como ejmplo lo dejaré así
 
-
-//Prueba de grabación en git 03/02/2024
-
 //Creación de una función denominada FindFiles que tome un parámetro folderName.
 //Esperamos como resultado una enumeración con los directorios en los que se encuenrtan archivos de tipo ".json"
 IEnumerable<string> FindFiles(string folderName)
@@ -90,3 +87,14 @@ IEnumerable<string> FindFiles(string folderName)
     }
     return salesFiles;
 }
+
+///GIT
+//Agregar Cambios al Área de Staging:
+//git add .
+//Realizar un Commit:
+//git commit -m "Mensaje descriptivo de los cambios"
+//Verificar Estado Después del Commit:
+//git status
+//Opcional: Subir Cambios al Repositorio Remoto:
+//git push origin main
+//Prueba de grabación en git 03/02/2024
